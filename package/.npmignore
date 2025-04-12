@@ -6,7 +6,6 @@
 # Logs
 *.log
 *.log.*
-*.tap/
 
 # Temp
 **/.temp/
@@ -26,5 +25,5 @@ _MACOSX/
 ehthumbs.db
 Thumbs.db
 
-# Build
-dist/
+# Development
+/tsconfig.json

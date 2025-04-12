@@ -1,9 +1,14 @@
 {
   "name": "root",
   "private": true,
-  "author": "Dan Reichl <reichl.daniel.p@gmail.com>",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "check": "pnpm -r run check",
+    "ci": "pnpm -r run ci",
+    "clean": "pnpm -r run clean && rm -rf node_modules",
+    "test": "pnpm --filter playground run test"
+  },
   "devDependencies": {
     "@biomejs/biome": "1.9.4"
   }

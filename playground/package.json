@@ -1,0 +1,17 @@
+{
+  "name": "playground",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "tap test/**/*.test.js --disable-coverage"
+  },
+  "dependencies": {
+    "fastify": "^5.2.1",
+    "fastify-bundle": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.10",
+    "tap": "21.1.0",
+    "typescript": "5.8.2"
+  }
+}

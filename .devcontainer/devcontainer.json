@@ -33,6 +33,7 @@
         "files.exclude": {
           ".git/**": true,
           "**/.pnpm-store/**": true,
+          "**/.tap/**": true,
           "**/node_modules/**": true
         }
       }
