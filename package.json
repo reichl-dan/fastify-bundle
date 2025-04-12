@@ -1,0 +1,10 @@
+{
+  "name": "root",
+  "private": true,
+  "author": "Dan Reichl <reichl.daniel.p@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  }
+}
