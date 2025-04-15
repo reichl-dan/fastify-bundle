@@ -1,6 +1,6 @@
 {
   "name": "fastify-bundle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Fastify plugin that bundles commonly used plugins and utilities for developing a Fastify API",
   "author": "Dan Reichl <reichl.daniel.p@gmail.com>",
   "license": "MIT",

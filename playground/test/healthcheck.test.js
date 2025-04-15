@@ -1,6 +1,6 @@
-import tap from 'tap'
 import fastify from 'fastify'
 import fastifyBundle from 'fastify-bundle'
+import tap from 'tap'
 
 tap.test('Custom healthcheck endpoint', async (t) => {
   const server = fastify()

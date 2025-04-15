@@ -7,6 +7,7 @@
     "check": "pnpm -r run check",
     "ci": "pnpm -r run ci",
     "clean": "pnpm -r run clean && rm -rf node_modules",
+    "dev": "pnpm --filter playground run dev",
     "test": "pnpm --filter playground run test"
   },
   "devDependencies": {

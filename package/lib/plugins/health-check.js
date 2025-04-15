@@ -7,9 +7,9 @@ import fp from 'fastify-plugin'
 
 /**
  * @param {FastifyInstance} server - The Fastify server instance
- * @param {HealthCheckOptions} [options={}] - Health check configuration options
+ * @param {HealthCheckOptions} [options] - Health check configuration options
  */
-async function defineHealthCheckPlugin(server, options = {}) {
+async function defineHealthCheckPlugin(server, options) {
   server.get('/health', async () => {
     return options ?? { status: 'ok' }
   })
